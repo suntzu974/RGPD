@@ -11,11 +11,11 @@ public class SQLServerConnUtils {
             throws SQLException, ClassNotFoundException {
  
         // Note: Change the connection parameters accordingly.
-        String hostName = "10.1.10.10";
-        String sqlInstanceName = "SAGEX3";
-        String database = "x3prod";
+        String hostName = ";
+        String sqlInstanceName = "";
+        String database = "";
         String userName = "sa";
-        String password = "$tiger2013!";
+        String password = "";
  
         return getSQLServerConnection(hostName, sqlInstanceName, database, userName, password);
     }
